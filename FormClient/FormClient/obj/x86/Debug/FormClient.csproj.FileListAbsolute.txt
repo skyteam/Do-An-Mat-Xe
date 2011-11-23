@@ -1,0 +1,10 @@
+C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\bin\Debug\FormClient.exe.config
+C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\bin\Debug\FormClient.exe
+C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\bin\Debug\FormClient.pdb
+C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\obj\x86\Debug\FormClient.MainForm.resources
+C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\obj\x86\Debug\FormClient.Properties.Resources.resources
+C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\obj\x86\Debug\FormClient.exe
+C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\obj\x86\Debug\FormClient.pdb
