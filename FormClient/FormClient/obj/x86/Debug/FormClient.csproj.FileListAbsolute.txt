@@ -8,3 +8,38 @@ C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\obj\x86\Debug\GenerateResour
 C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\obj\x86\Debug\FormClient.exe
 C:\Users\KHOADETHUONG\Desktop\FormClient\FormClient\obj\x86\Debug\FormClient.pdb
+D:\WebProject\FormClient\FormClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.MainForm.resources
+D:\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.Properties.Resources.resources
+D:\WebProject\FormClient\FormClient\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\WebProject\FormClient\FormClient\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\WebProject\FormClient\FormClient\bin\Debug\FormClient.exe.config
+D:\WebProject\FormClient\FormClient\bin\Debug\FormClient.exe
+D:\WebProject\FormClient\FormClient\bin\Debug\FormClient.pdb
+D:\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.exe
+D:\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.pdb
+C:\Users\l\Desktop\WebProject\FormClient\FormClient\bin\Debug\FormClient.exe.config
+C:\Users\l\Desktop\WebProject\FormClient\FormClient\bin\Debug\FormClient.exe
+C:\Users\l\Desktop\WebProject\FormClient\FormClient\bin\Debug\FormClient.pdb
+C:\Users\l\Desktop\WebProject\FormClient\FormClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\l\Desktop\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.MainForm.resources
+C:\Users\l\Desktop\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.Properties.Resources.resources
+C:\Users\l\Desktop\WebProject\FormClient\FormClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\l\Desktop\WebProject\FormClient\FormClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\l\Desktop\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.exe
+C:\Users\l\Desktop\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.pdb
+C:\Users\KHOA\Desktop\WebService\WebProject\FormClient\FormClient\bin\Debug\FormClient.exe.config
+C:\Users\KHOA\Desktop\WebService\WebProject\FormClient\FormClient\bin\Debug\FormClient.exe
+C:\Users\KHOA\Desktop\WebService\WebProject\FormClient\FormClient\bin\Debug\FormClient.pdb
+C:\Users\KHOA\Desktop\WebService\WebProject\FormClient\FormClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\KHOA\Desktop\WebService\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.MainForm.resources
+C:\Users\KHOA\Desktop\WebService\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.Properties.Resources.resources
+C:\Users\KHOA\Desktop\WebService\WebProject\FormClient\FormClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\KHOA\Desktop\WebService\WebProject\FormClient\FormClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\KHOA\Desktop\WebService\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.exe
+C:\Users\KHOA\Desktop\WebService\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.pdb
+C:\Users\KHOA\Desktop\WebService\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.Interface.BaoMatXe.resources
+C:\Users\KHOA\Desktop\WebService\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.Interface.KiemTraXe.resources
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormClient\FormClient\bin\Debug\FormClient.exe.config
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.exe
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormClient\FormClient\obj\x86\Debug\FormClient.pdb

@@ -7,20 +7,50 @@ using System.Text;
 
 namespace FormHost
 {
+    [DataContract]
+    public class XeMat
+    {
+        [DataMember]
+        public string BienSoXe;
+        [DataMember]
+        public string SoMay;
+        [DataMember]
+        public string SoKhung;
+        [DataMember]
+        public string LoaiXe;
+        [DataMember]
+        public string MauXe;
+        [DataMember]
+        public string CMNDSoHuu;
+        [DataMember]
+        public string NoiDangKy;
+        [DataMember]
+        public bool DaTimThay;
+    }
+
+    [DataContract]
+    public class ChuXe
+    {
+        [DataMember]
+        public string CMNDSoHuu;
+        [DataMember]
+        public string HoTen;
+        [DataMember]
+        public string DiaChi;
+        [DataMember]
+        public string DienThoai;
+        [DataMember]
+        public DateTime NgaySinh;
+    }
     [ServiceContract]
-    
     public interface IBService
     {
         [OperationContract]
-        string LogIn();
+        bool ThemXe(XeMat Xe, ChuXe People);
         [OperationContract]
-        string GetBangXeXML();
-        [OperationContract]
-        bool ThemXe
-        (
-            string BienSoXe, string SoMay, string SoKhung, string LoaiXe,
-            string MauXe, string CMNDSoHuu, DateTime NgayDangKy, string NoiDangKy,
-	        string HoTen, string DiaChi, string DienThoai, DateTime NgaySinh
-        );
+        List<XeMat> TimXeTheoCMND(string CMND);
     }
+
+    
+
 }

@@ -49,6 +49,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control\ClientControl.cs" />
+    <Compile Include="Interface\BaoMatXe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\BaoMatXe.Designer.cs">
+      <DependentUpon>BaoMatXe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\KiemTraXe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\KiemTraXe.Designer.cs">
+      <DependentUpon>KiemTraXe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interface\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,11 +69,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\MyService\Reference.cs">
+    <Compile Include="Service References\XService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Interface\BaoMatXe.resx">
+      <DependentUpon>BaoMatXe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\KiemTraXe.resx">
+      <DependentUpon>KiemTraXe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interface\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +93,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="app.config" />
+    <None Include="ClassDiagram.cd" />
     <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -85,11 +104,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Service References\MyService\BService.wsdl" />
-    <None Include="Service References\MyService\item.xsd">
+    <None Include="Service References\XService\BService.wsdl" />
+    <None Include="Service References\XService\FormClient.XService.XeMat.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\XService\item.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\MyService\item1.xsd">
+    <None Include="Service References\XService\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\XService\item2.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -97,16 +122,16 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\MyService\" />
+    <WCFMetadataStorage Include="Service References\XService\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\MyService\configuration91.svcinfo" />
+    <None Include="Service References\XService\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\MyService\configuration.svcinfo" />
+    <None Include="Service References\XService\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\MyService\Reference.svcmap">
+    <None Include="Service References\XService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

@@ -13,6 +13,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -25,7 +26,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -51,6 +51,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
@@ -65,12 +66,34 @@
   <ItemGroup>
     <Compile Include="BService.cs" />
     <Compile Include="Control\WebServiceControl.cs" />
+    <Compile Include="DataSetOBJ.cs">
+      <DependentUpon>DataSetOBJ.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="DataSetOBJ.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSetOBJ.xsd</DependentUpon>
     </Compile>
     <Compile Include="Data\WebServiceData.cs" />
+    <Compile Include="Interface\DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\DanhMucChuXe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\DanhMucChuXe.Designer.cs">
+      <DependentUpon>DanhMucChuXe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\DanhMucXeMat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\DanhMucXeMat.Designer.cs">
+      <DependentUpon>DanhMucXeMat.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interface\FormHost.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,10 +101,28 @@
       <DependentUpon>FormHost.cs</DependentUpon>
     </Compile>
     <Compile Include="IBService.cs" />
+    <Compile Include="Interface\TaoTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\TaoTaiKhoan.Designer.cs">
+      <DependentUpon>TaoTaiKhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Interface\DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\DanhMucChuXe.resx">
+      <DependentUpon>DanhMucChuXe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\DanhMucXeMat.resx">
+      <DependentUpon>DanhMucXeMat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interface\FormHost.resx">
       <DependentUpon>FormHost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\TaoTaiKhoan.resx">
+      <DependentUpon>TaoTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,6 +136,7 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="ClassDiagram.cd" />
     <None Include="DataSetOBJ.xsc">
       <DependentUpon>DataSetOBJ.xsd</DependentUpon>
     </None>

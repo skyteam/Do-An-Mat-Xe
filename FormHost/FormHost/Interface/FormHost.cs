@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Windows.Forms;
+using FormHost.Data;
+using FormHost.Control;
+using FormHost.Interface;
+
 namespace FormHost
 {
     public partial class FormHost : Form
@@ -14,58 +18,64 @@ namespace FormHost
         public FormHost()
         {
             InitializeComponent();
-            Control.WebServiceControl.SetObjectForm(this);
             ShowNOKInfo();
+            new Interface.DangNhap().ShowDialog();
         }
 
         private void btnStart_Click(object sender, EventArgs e)
         {
             if (!cbBSHTTP.Checked && !cbMEX.Checked && !cbTCPNET.Checked && !cbWSHTTP.Checked)
             {
-                MessageBox.Show("Please chose at least one type of binding");
+                MessageBox.Show("Vui lòng chọn ít nhất 1 kiểu bind");
                 return;
             }
-            if (!Control.WebServiceControl.StartService(txtBaseAddress.Text.Trim()))
+
+            Control.WebServiceControl.InitHost();
+
+            if (cbMEX.Checked || cbBSHTTP.Checked || cbWSHTTP.Checked)
             {
-                txtStatus.AppendText("Fail to Start Service\n\n");
-                ShowNOKInfo();
-                return;
+                if (!Control.WebServiceControl.StartHTTPService(txtBaseAddress.Text.Trim()))
+                {
+                    ShowNOKInfo();
+                    return;
+                }
             }
+
             if (cbMEX.Checked)
             {
                 if (!Control.WebServiceControl.CreateMEXEndpoint())
                 {
-                    txtStatus.AppendText("Fail to create Mex Endpoint");
                     ShowNOKInfo();
                     return;
                 }
-                txtStatus.AppendText("MEX enpoint created\n\n");
+                pcbMEX.Image = Image.FromFile("OK.png");
             }
             if (cbBSHTTP.Checked)
             {
                 if (!Control.WebServiceControl.CreateBSHTTPEndpoint())
                 {
-                    txtStatus.AppendText("Fail to create Basic HTTP Endpoint");
                     ShowNOKInfo();
                     return;
                 }
-                txtStatus.AppendText("Basic HTTP enpoint created\n\n");
+                pcbBS.Image = Image.FromFile("OK.png");
             }
             if (cbWSHTTP.Checked)
             {
                 if (!Control.WebServiceControl.CreateWSHTTPEndpoint())
                 {
-                    txtStatus.AppendText("Fail to create WS HTTP Endpoint");
                     ShowNOKInfo();
                     return;
                 }
-                txtStatus.AppendText("WS HTTP enpoint created\n\n");
+                pcbWS.Image = Image.FromFile("OK.png");
             }
             if (cbTCPNET.Checked)
             {
-                Control.WebServiceControl.CreateTCPNETEndpoint();
-                string Address = "net.tcp://localhost:9000/TCPNET";
-                txtStatus.AppendText("TCPNET enpoint created\n\nThe address is\n" + Address + "\n\n");
+                if (!Control.WebServiceControl.CreateTCPNETEndpoint())
+                {
+                    ShowNOKInfo();
+                    return;
+                }
+                pcbTCP.Image = Image.FromFile("OK.png");
             }
             Control.WebServiceControl.OpenHost();
             ShowOKInfo();
@@ -74,27 +84,90 @@ namespace FormHost
         private void btnStop_Click(object sender, EventArgs e)
         {
             ShowNOKInfo();
-            txtStatus.AppendText("Service is destroyed\n\n");
         }
         private void ShowNOKInfo()
         {
+            txtBaseAddress.Text = "";
             btnStart.Enabled = true;
             btnStop.Enabled = false;
-            lbStatus.Text = "SERVICE IS NOT HOSTED";
-            lbStatus.ForeColor = Color.Red;
+            pcbBS.Image = Image.FromFile("NOK.png");
+            pcbWS.Image = Image.FromFile("NOK.png");
+            pcbTCP.Image = Image.FromFile("NOK.png");
+            pcbMEX.Image = Image.FromFile("NOK.png");
+            cbBSHTTP.Checked = false;
+            cbMEX.Checked = false;
+            cbTCPNET.Checked = false;
+            cbWSHTTP.Checked = false;
         }
         private void ShowOKInfo()
         {
             btnStart.Enabled = false;
             btnStop.Enabled = true;
-            lbStatus.Text = "SERVICE IS HOSTED";
-            lbStatus.ForeColor = Color.Green;
-            Control.WebServiceControl.UpdateObjectForm();
-        }
-        public void UpdateInfo()
+        }       
+
+        private void btnDong_Click(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = Data.WebServiceData.BangXe;
-            dataGridView2.DataSource = Data.WebServiceData.BangChuXeMat;
+            Control.WebServiceControl.StopService();
+            this.Close();
+        }
+
+        private void cbTCPNET_Click(object sender, EventArgs e)
+        {
+            if ((cbTCPNET.Checked) && !cbMEX.Checked && !cbBSHTTP.Checked && !cbWSHTTP.Checked)
+            {
+                txtBaseAddress.Enabled = false;
+                txtBaseAddress.Text = "";
+            }
+            else
+                txtBaseAddress.Enabled = true;
+        }
+
+        private void cbWSHTTP_Click(object sender, EventArgs e)
+        {
+            if ((cbTCPNET.Checked) && !cbMEX.Checked && !cbBSHTTP.Checked && !cbWSHTTP.Checked)
+            {
+                txtBaseAddress.Enabled = false;
+                txtBaseAddress.Text = "";
+            }
+            else
+                txtBaseAddress.Enabled = true;
+        }
+
+        private void cbBSHTTP_Click(object sender, EventArgs e)
+        {
+            if ((cbTCPNET.Checked) && !cbMEX.Checked && !cbBSHTTP.Checked && !cbWSHTTP.Checked)
+            {
+                txtBaseAddress.Enabled = false;
+                txtBaseAddress.Text = "";
+            }
+            else
+                txtBaseAddress.Enabled = true;
+        }
+
+        private void cbMEX_Click(object sender, EventArgs e)
+        {
+            if ((cbTCPNET.Checked) && !cbMEX.Checked && !cbBSHTTP.Checked && !cbWSHTTP.Checked)
+            {
+                txtBaseAddress.Enabled = false;
+                txtBaseAddress.Text = "";
+            }
+            else
+                txtBaseAddress.Enabled = true;
+        }
+
+        private void btnChuXe_Click(object sender, EventArgs e)
+        {
+            new DanhMucChuXe().ShowDialog();
+        }
+
+        private void btnXe_Click(object sender, EventArgs e)
+        {
+            new DanhMucXeMat().ShowDialog();
+        }
+
+        private void btnTKhoan_Click(object sender, EventArgs e)
+        {
+            new Interface.TaoTaiKhoan().ShowDialog();
         }
     }
 }

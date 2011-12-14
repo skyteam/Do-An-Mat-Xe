@@ -20,18 +20,59 @@ C:\Users\KHOADETHUONG\Desktop\FormHost\FormHost\obj\x86\Debug\GenerateResource.r
 C:\Users\KHOADETHUONG\Desktop\FormHost\FormHost\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\KHOADETHUONG\Desktop\FormHost\FormHost\obj\x86\Debug\FormHost.exe
 C:\Users\KHOADETHUONG\Desktop\FormHost\FormHost\obj\x86\Debug\FormHost.pdb
-C:\Users\Lap_Trinh\Desktop\Web\FormHost\FormHost\bin\Debug\FormHost.exe.config
-C:\Users\Lap_Trinh\Desktop\Web\FormHost\FormHost\obj\x86\Debug\FormHost.exe
-C:\Users\Lap_Trinh\Desktop\Web\FormHost\FormHost\obj\x86\Debug\FormHost.pdb
-E:\DichVuWeb\FormHost\FormHost\bin\Debug\Data.mdf
-E:\DichVuWeb\FormHost\FormHost\bin\Debug\Data_log.ldf
-E:\DichVuWeb\FormHost\FormHost\bin\Debug\FormHost.exe.config
-E:\DichVuWeb\FormHost\FormHost\bin\Debug\FormHost.exe
-E:\DichVuWeb\FormHost\FormHost\bin\Debug\FormHost.pdb
-E:\DichVuWeb\FormHost\FormHost\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\DichVuWeb\FormHost\FormHost\obj\x86\Debug\FormHost.FormHost.resources
-E:\DichVuWeb\FormHost\FormHost\obj\x86\Debug\FormHost.Properties.Resources.resources
-E:\DichVuWeb\FormHost\FormHost\obj\x86\Debug\GenerateResource.read.1.tlog
-E:\DichVuWeb\FormHost\FormHost\obj\x86\Debug\GenerateResource.write.1.tlog
-E:\DichVuWeb\FormHost\FormHost\obj\x86\Debug\FormHost.exe
-E:\DichVuWeb\FormHost\FormHost\obj\x86\Debug\FormHost.pdb
+D:\WebProject\FormHost\FormHost\bin\Debug\Data.mdf
+D:\WebProject\FormHost\FormHost\bin\Debug\Data_log.ldf
+D:\WebProject\FormHost\FormHost\bin\Debug\FormHost.exe.config
+D:\WebProject\FormHost\FormHost\bin\Debug\FormHost.exe
+D:\WebProject\FormHost\FormHost\bin\Debug\FormHost.pdb
+D:\WebProject\FormHost\FormHost\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.FormHost.resources
+D:\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.Properties.Resources.resources
+D:\WebProject\FormHost\FormHost\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\WebProject\FormHost\FormHost\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.exe
+D:\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.pdb
+C:\Users\l\Desktop\WebProject\FormHost\FormHost\bin\Debug\FormHost.exe.config
+C:\Users\l\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.exe
+C:\Users\l\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.pdb
+C:\Users\l\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\l\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.FormHost.resources
+C:\Users\l\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.Properties.Resources.resources
+C:\Users\l\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\l\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\l\Desktop\WebProject\FormHost\FormHost\bin\Debug\Data.mdf
+C:\Users\l\Desktop\WebProject\FormHost\FormHost\bin\Debug\Data_log.ldf
+C:\Users\l\Desktop\WebProject\FormHost\FormHost\bin\Debug\FormHost.exe
+C:\Users\l\Desktop\WebProject\FormHost\FormHost\bin\Debug\FormHost.pdb
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\bin\Debug\Data.mdf
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\bin\Debug\Data_log.ldf
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\bin\Debug\FormHost.exe.config
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\bin\Debug\FormHost.exe
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\bin\Debug\FormHost.pdb
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.Interface.DangNhap.resources
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.Interface.DanhMucChuXe.resources
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.Interface.DanhMucXeMat.resources
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.FormHost.resources
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.Interface.TaoTaiKhoan.resources
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.Properties.Resources.resources
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.exe
+C:\Users\KHOA\Desktop\WebService\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.pdb
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\bin\Debug\FormHost.exe.config
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.exe
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.pdb
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\bin\Debug\Data.mdf
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\bin\Debug\Data_log.ldf
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\bin\Debug\FormHost.exe
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\bin\Debug\FormHost.pdb
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.Interface.DangNhap.resources
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.Interface.DanhMucChuXe.resources
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.Interface.DanhMucXeMat.resources
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.FormHost.resources
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.Interface.TaoTaiKhoan.resources
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\FormHost.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\WebProject\FormHost\FormHost\obj\x86\Debug\GenerateResource.write.1.tlog

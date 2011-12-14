@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="rUFrFL+BoQpkEixOsa4AzZlgZ2Q=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="J+1owAiE2FQz979OKGbVUDWaPwc=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IBService">
       <properties>
@@ -351,7 +351,7 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IBService" contract="MyService.IBService" bindingType="basicHttpBinding" address="http://localhost:8000/BSHTTP" bindingConfiguration="BasicHttpBinding_IBService">
+    <endpoint name="BasicHttpBinding_IBService" contract="XService.IBService" bindingType="basicHttpBinding" address="http://localhost:8000/BSHTTP" bindingConfiguration="BasicHttpBinding_IBService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>http://localhost:8000/BSHTTP</serializedValue>
@@ -366,7 +366,7 @@
           <serializedValue>BasicHttpBinding_IBService</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>MyService.IBService</serializedValue>
+          <serializedValue>XService.IBService</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
@@ -436,7 +436,7 @@
         </property>
       </properties>
     </endpoint>
-    <endpoint name="WSHttpBinding_IBService" contract="MyService.IBService" bindingType="wsHttpBinding" address="http://localhost:8000/WSHTTP" bindingConfiguration="WSHttpBinding_IBService">
+    <endpoint name="WSHttpBinding_IBService" contract="XService.IBService" bindingType="wsHttpBinding" address="http://localhost:8000/WSHTTP" bindingConfiguration="WSHttpBinding_IBService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>http://localhost:8000/WSHTTP</serializedValue>
@@ -451,7 +451,7 @@
           <serializedValue>WSHttpBinding_IBService</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>MyService.IBService</serializedValue>
+          <serializedValue>XService.IBService</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
@@ -466,7 +466,7 @@
           <serializedValue>System.ServiceModel.Configuration.UserPrincipalNameElement</serializedValue>
         </property>
         <property path="/identity/userPrincipalName/value" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>KHOADETHUONG-PC\KHOADETHUONG</serializedValue>
+          <serializedValue>KHOA-PC\KHOA</serializedValue>
         </property>
         <property path="/identity/servicePrincipalName" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.ServicePrincipalNameElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.ServicePrincipalNameElement</serializedValue>
@@ -521,10 +521,10 @@
         </property>
       </properties>
     </endpoint>
-    <endpoint name="NetTcpBinding_IBService" contract="MyService.IBService" bindingType="netTcpBinding" address="net.tcp://localhost:9000/TCPNET" bindingConfiguration="NetTcpBinding_IBService">
+    <endpoint name="NetTcpBinding_IBService" contract="XService.IBService" bindingType="netTcpBinding" address="net.tcp://localhost/TCPNET" bindingConfiguration="NetTcpBinding_IBService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>net.tcp://localhost:9000/TCPNET</serializedValue>
+          <serializedValue>net.tcp://localhost/TCPNET</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -536,7 +536,7 @@
           <serializedValue>NetTcpBinding_IBService</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>MyService.IBService</serializedValue>
+          <serializedValue>XService.IBService</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
@@ -551,7 +551,7 @@
           <serializedValue>System.ServiceModel.Configuration.UserPrincipalNameElement</serializedValue>
         </property>
         <property path="/identity/userPrincipalName/value" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>KHOADETHUONG-PC\KHOADETHUONG</serializedValue>
+          <serializedValue>KHOA-PC\KHOA</serializedValue>
         </property>
         <property path="/identity/servicePrincipalName" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.ServicePrincipalNameElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.ServicePrincipalNameElement</serializedValue>

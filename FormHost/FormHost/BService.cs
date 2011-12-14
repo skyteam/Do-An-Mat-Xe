@@ -10,31 +10,13 @@ namespace FormHost
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in both code and config file together.
     public class BService : IBService
     {
-        public string LogIn()
+        public bool ThemXe(XeMat Xe, ChuXe People)
         {
-            return "LOG IN SUCCESSFULLY";
+            return Data.WebServiceData.ThemXe(Xe, People);
         }
-        public string GetBangXeXML()
+        public List<XeMat> TimXeTheoCMND(string CMND)
         {
-            System.IO.StringWriter sw = new System.IO.StringWriter();
-            Data.WebServiceData.BangXe.WriteXml(sw);
-            sw.Close();
-            string TableXML = sw.ToString();
-            return TableXML;
-        }
-        public bool ThemXe
-        (
-            string BienSoXe, string SoMay, string SoKhung, string LoaiXe,
-            string MauXe, string CMNDSoHuu, DateTime NgayDangKy, string NoiDangKy,
-            string HoTen, string DiaChi, string DienThoai, DateTime NgaySinh
-        )
-        {
-            return Data.WebServiceData.ThemXe
-            (
-                    BienSoXe, SoMay, SoKhung, LoaiXe,
-                    MauXe, CMNDSoHuu, NgayDangKy, NoiDangKy,
-                    HoTen, DiaChi, DienThoai, NgaySinh
-            );
+            return Data.WebServiceData.TimXeTheoCMND_List(CMND);
         }
     }
 }

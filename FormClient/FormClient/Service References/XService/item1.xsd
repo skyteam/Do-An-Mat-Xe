@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/FormHost" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/FormHost" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="XeMat">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BienSoXe" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CMNDSoHuu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DaTimThay" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LoaiXe" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MauXe" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NoiDangKy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SoKhung" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SoMay" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XeMat" nillable="true" type="tns:XeMat" />
+  <xs:complexType name="ChuXe">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CMNDSoHuu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DiaChi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DienThoai" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HoTen" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NgaySinh" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChuXe" nillable="true" type="tns:ChuXe" />
+  <xs:complexType name="ArrayOfXeMat">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="XeMat" nillable="true" type="tns:XeMat" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfXeMat" nillable="true" type="tns:ArrayOfXeMat" />
+</xs:schema>
